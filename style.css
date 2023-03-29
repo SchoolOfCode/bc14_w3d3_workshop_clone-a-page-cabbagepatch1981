@@ -1,0 +1,55 @@
+:root {
+    --text-color: #FF8BFF;
+    --font: Arial, sans-serif;
+    --text-size: 16px;
+    --text-line-height: 2;
+    --text-heading-size: 24px;
+    --text-heading-weight: bold;
+    --text-heading-margin: 1em 0;
+  }
+  
+  body {
+    background-color: #193718;
+    color: var(--text-color);
+    font-size: var(--text-size);
+    line-height: var(--text-line-height);
+    font-family: var(--font);
+  }
+  
+  h1 {
+    color: var(--text-color);
+    font-size: var(--text-heading-size);
+    font-weight: var(--text-heading-weight);
+    margin: var(--text-heading-margin);
+    font-family: var(--font);
+  }
+  
+  .head-banner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .head-banner ul li {
+    display: inline-block;
+  }
+  
+  .head-banner ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: none;
+    color: var(--text-color);
+  }
+  
+  .head-banner ul li ul {
+    display: none;
+
+  } 
+
+  button {
+    color: var(--text-color);
+    font-family: var(--font);
+    background-color: #193718; 
+  };
